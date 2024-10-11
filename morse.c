@@ -1,7 +1,7 @@
 const int pinLed = 10; // Pin pro LED
 const int delkaTecky = 200; // Délka tečky v milisekundách
 const int delkaCarky = 600; // Délka čárky v milisekundách
-const int delkaMezery = 200; // Délka mezery mezi znaky v milisekundách
+const int delkaMezery = 500; // Délka mezery mezi znaky v milisekundách
 
 void setup() {
   pinMode(pinLed, OUTPUT); // Nastavení pinu LED jako výstup
